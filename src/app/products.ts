@@ -21,7 +21,8 @@ export const products = [
   {
     id:3,
     name:'Ipad',
-    price:30000
+    price:30000,
+    description: 'Phone with 64 mp camera'
   }
 
 ];
