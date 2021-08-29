@@ -10,6 +10,9 @@
   <button (click) = "share()" >
     Share
   </button>
-  <app-product-alerts [productI]="product">
+  <br>
+  <br>
+  <app-product-alerts [productI]="product"
+  (notify) = "onNotify()">
   </app-product-alerts>
 </div>
